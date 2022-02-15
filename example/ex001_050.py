@@ -229,3 +229,9 @@ print(year,month,day)
 #ex050
 data = " 0301391    "
 print(data.rstrip())
+
+
+def add(a,b) :
+    return a,b
+r,b = add("(1,21)",2)
+print(type(r))

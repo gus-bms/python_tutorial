@@ -39,6 +39,7 @@ while(True):
     """
     for (x,y,w,h) in faces:
         cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),3, 4, 0)
+
     """
     cv2.rectangle(img, pt1, pt2, color[, thickness[, lineType[, shift]]]) → None
     img 적용할 이미지
